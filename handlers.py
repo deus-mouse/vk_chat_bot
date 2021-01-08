@@ -6,7 +6,7 @@ True если шаг пройден, False если данные введены 
 """
 import re
 
-from ScillboxPython.lesson_015.vk_chat_bot.generate_ticket import generate_ticket
+from generate_ticket import generate_ticket
 
 re_name = re.compile(r'^[\w\-\s]{3,40}$')
 re_email = re.compile(r'\b[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+\b')

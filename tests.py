@@ -6,7 +6,7 @@ from unittest.mock import patch, Mock, ANY
 from pony.orm import rollback, db_session
 from vk_api.bot_longpoll import VkBotMessageEvent
 import settings
-from ScillboxPython.lesson_015.vk_chat_bot.generate_ticket import generate_ticket
+from generate_ticket import generate_ticket
 from bot import Bot
 
 

@@ -1,5 +1,5 @@
 .idea
-settings.py
+#settings.py
 __pycache__
 venv
 bot.log

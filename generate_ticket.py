@@ -5,14 +5,14 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 TEMPLATE_PATH = 'files/ticket-base.png'
-FONT_PATH =  "files/Roboto-Regular.ttf"
+FONT_PATH = "files/Roboto-Regular.ttf"
 FONT_SIZE = 30
 
 BLACK = (0, 0, 0, 255)
-NAME_OFFSET = (450, 325)
-EMAIL_OFFSET = (450, 375)
+NAME_OFFSET = (405, 345)
+EMAIL_OFFSET = (405, 395)
 AVATAR_SIZE = 150
-AVATAR_OFFSET = (100,300)
+AVATAR_OFFSET = (100,325)
 
 
 def generate_ticket(name, email):
