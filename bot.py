@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-# from _token import token
 import requests
 from pony.orm import db_session
 
@@ -16,8 +15,6 @@ import random
 import logging
 import handlers
 
-# group_id = 'mozgoyoga'
-# group_id = 124866462
 
 
 log = logging.getLogger('vk_chat_bot')
@@ -35,12 +32,6 @@ def configure_logging():
 
     log.setLevel(logging.DEBUG)
 
-# class UserState:
-#     """Состояние пользователя внутри сценария"""
-#     def __init__(self, scenario_name, step_name, context=None):
-#         self.scenario_name = scenario_name
-#         self.step_name = step_name
-#         self.context = context or {}
 
 class Bot:
     """

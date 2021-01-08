@@ -24,8 +24,6 @@ def generate_ticket(name, email):
     draw.text(EMAIL_OFFSET, email, font=font, fill=BLACK)
 
     response = requests.get(url=f'https://avatars.dicebear.com/4.5/api/male/{name}.svg?w={AVATAR_SIZE}&h={AVATAR_SIZE}')
-    # response = requests.get(url=f'https://avatars.dicebear.com/4.4/api/male/{name}.svg')
-    # avatar_file_like = BytesIO(response.content)
 
     img_file = open('files/avatar.svg', 'wb')
     img_file.write(response.content)
